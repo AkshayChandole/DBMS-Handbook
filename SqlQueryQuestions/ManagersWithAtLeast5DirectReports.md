@@ -70,15 +70,15 @@ Output:
 
 ### [Solution](#solution)
 
-Here’s how you can solve the problem using a `JOIN`:
+Here is the solution using `JOIN` to find managers with at least 5 direct reports:
 
 ```sql
 SELECT 
     m.name AS name
 FROM 
-    Employee m
+    Employee AS m
 JOIN 
-    Employee e
+    Employee AS e
 ON 
     m.id = e.managerId
 GROUP BY 
@@ -89,14 +89,31 @@ HAVING
 
 #### Explanation:
 1. **`JOIN` Clause**:
-   - The `JOIN` connects the `Employee` table to itself.
-   - `m` represents the manager, and `e` represents the employees who report to that manager.
-   - `m.id = e.managerId` ensures we are associating employees with their managers.
+   - The `Employee` table is joined to itself using `m` (managers) and `e` (employees).
+   - `m.id = e.managerId` ensures that employees (`e`) are associated with their respective managers (`m`).
 
 2. **`GROUP BY` Clause**:
-   - We group the records by `m.id` and `m.name` to count the number of employees (`e.id`) reporting to each manager.
+   - Groups the rows by `m.id` and `m.name` so we can count the number of employees reporting to each manager.
 
 3. **`HAVING` Clause**:
-   - Filters the results to include only those managers who have at
+   - Filters the groups to only include managers who have 5 or more employees (`COUNT(e.id) >= 5`).
 
+#### Output for the Given Example:
+
+For the input table:
+
+| id  | name  | department | managerId |
+|------|-------|------------|-----------|
+| 101  | John  | A          | NULL      |
+| 102  | Dan   | A          | 101       |
+| 103  | James | A          | 101       |
+| 104  | Amy   | A          | 101       |
+| 105  | Anne  | A          | 101       |
+| 106  | Ron   | B          | 101       |
+
+The output will be:
+
+| name |
+|------|
+| John |
 ---
