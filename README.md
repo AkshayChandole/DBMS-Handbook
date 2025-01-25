@@ -28,7 +28,7 @@
    - [Number of Unique Subjects Taught by Each Teacher](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/NumberOfUniqueSubjectsTaughtByEachTeacher.md#number-of-unique-subjects-taught-by-each-teacher)
    - [User Activity for the Past 30 Days I](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/UserActivityForThePast30DaysI.md#user-activity-for-the-past-30-days-i)
    - [Product Sales Analysis III](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/ProductSalesAnalysisIII.md#product-sales-analysis-iii)
-   - []()
+   - [Classes More Than 5 Students](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/ClassesMoreThan5Students.md#classes-more-than-5-students)
    - []()
    - []()
    - []()
