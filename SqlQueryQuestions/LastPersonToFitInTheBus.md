@@ -70,6 +70,7 @@ Output:
 +-------------+
 ```
 Explanation: The folowing table is ordered by the turn for simplicity.
+```
 +------+----+-----------+--------+--------------+
 | Turn | ID | Name      | Weight | Total Weight |
 +------+----+-----------+--------+--------------+
