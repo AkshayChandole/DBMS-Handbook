@@ -42,7 +42,7 @@
    - [Employees Whose Manager Left the Company](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/EmployeesWhoseManagerLeftTheCompany.md#employees-whose-manager-left-the-company)
    - [Exchange Seats](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/ExchangeSeats.md#exchange-seats)
    - [Movie Rating](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/MovieRating.md#movie-rating)
-   - []()
+   - [Restaurant Growth](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/RestaurantGrowth.md#restaurant-growth)
    - []()
    - []()
    - []()
