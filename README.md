@@ -44,7 +44,7 @@
    - [Movie Rating](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/MovieRating.md#movie-rating)
    - [Restaurant Growth](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/RestaurantGrowth.md#restaurant-growth)
    - [Friend Requests II: Who Has the Most Friends](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/FriendRequestsIIWhoHasTheMostFriends.md#friend-requests-ii-who-has-the-most-friends)
-   - []()
+   - [Investments in 2016](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/InvestmentsIn2016.md#investments-in-2016)
    - []()
    - []()
    - []()
