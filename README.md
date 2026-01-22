@@ -4,7 +4,8 @@
 
 
 ### [Theory Questions](#theory-questions)
-   - [What is Normalization?]()
+   - [What is Normalization?](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/TheoryQuestions/Normalization.md#normalization)
+   - [What is an Index](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/TheoryQuestions/Indexing.md#indexing)
 
 ### [SQL Query Questions](#sql-query-questions)
    - [Recyclable and Low Fat Products](https://github.com/AkshayChandole/DBMS-Handbook/blob/main/SqlQueryQuestions/RecyclableAndLowFatProducts.md#recyclable-and-low-fat-products)
